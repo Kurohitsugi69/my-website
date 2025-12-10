@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For Nagi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="envelope-wrapper" id="envelopeWrapper">
+      <div class="envelope" id="envelope">
+        <div class="seal">💌</div>
+        <div class="envelope-top"></div>
+        <div class="envelope-body-front"></div>
+        <div class="inner-letter"></div>
+        <div class="envelope-body-back"></div>
+      </div>
+    </div>
+
+    <div class="letter-wrapper" id="letterWrapper">
+      <div class="letter" id="letter">
+        <div class="letter-inner">
+          <div class="letter-header">
+            <span>To: Nagi</span>
+            <button class="lang-toggle" id="langToggle">
+              <span id="langEn" class="active">EN</span> / <span id="langJp">日本語</span>
+            </button>
+          </div>
+          <div class="letter-content" id="letterContent"></div>
+          <div class="letter-footer">
+            — Shin
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hint" id="hint">Click the envelope to open it.</div>
+  </div>
+
+  <button id="muteBtn" class="mute-btn" title="Mute audio">
+    <span id="muteIcon">🔊</span>
+  </button>
+
+  <audio id="bgAudio" loop>
+    <source src="assets/audio/嘘月.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
