@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About - My Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    .about-container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(255, 159, 191, 0.2);
+      border: 1px solid rgba(255, 182, 193, 0.5);
+    }
+
+    .navigation {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      padding: 12px 20px;
+      box-shadow: 0 4px 16px rgba(255, 159, 191, 0.2);
+      border: 1px solid rgba(255, 182, 193, 0.5);
+      z-index: 100;
+    }
+
+    .navigation a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #666;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .navigation a:hover {
+      color: #ff69b4;
+    }
+
+    .about-container h1 {
+      color: #ff69b4;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+
+    .about-container h2 {
+      color: #ff8fab;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+    }
+
+    .about-container p {
+      line-height: 1.8;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .about-container ul {
+      margin-left: 20px;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    .about-container code {
+      background: #f5f5f5;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Courier New', monospace;
+      color: #e91e63;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navigation">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">📖 About</a>
+  </nav>
+
+  <div class="about-container">
+    <h1>About This Website</h1>
+    <p>
+      This is a personal static website featuring an interactive music player and a special envelope/letter interface.
+      It's built with pure HTML, CSS, and JavaScript without any frameworks or build tools.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>🎵 Interactive music player with album support</li>
+      <li>💌 Animated envelope with bilingual letter content (Japanese/English)</li>
+      <li>🔀 Shuffle and repeat modes for music playback</li>
+      <li>📱 Fully responsive design</li>
+      <li>🎨 Beautiful gradient background with smooth animations</li>
+    </ul>
+
+    <h2>Technology Stack</h2>
+    <ul>
+      <li><strong>HTML5</strong> - Semantic markup and structure</li>
+      <li><strong>CSS3</strong> - Styling, animations, and responsive design</li>
+      <li><strong>JavaScript</strong> - Interactive functionality and audio control</li>
+    </ul>
+
+    <h2>How to Add More Pages</h2>
+    <p>
+      This website is designed to be simple and extensible. To create a new page:
+    </p>
+    <ol>
+      <li>Create a new HTML file in the root directory (e.g., <code>contact.html</code>)</li>
+      <li>Use the existing <code>assets/css/style.css</code> for consistent styling</li>
+      <li>Add navigation links to connect pages together</li>
+      <li>Test by opening the file in your browser</li>
+    </ol>
+    <p>
+      For more detailed instructions, check the <a href="https://github.com/Kurohitsugi69/my-website/blob/main/README.md" target="_blank">README.md</a>.
+    </p>
+
+    <h2>Example Page</h2>
+    <p>
+      This "About" page itself serves as an example of how to create additional pages in this website.
+      It demonstrates:
+    </p>
+    <ul>
+      <li>Reusing the base stylesheet from <code>assets/css/style.css</code></li>
+      <li>Adding page-specific styles inline</li>
+      <li>Creating navigation to link between pages</li>
+      <li>Maintaining the visual design language</li>
+    </ul>
+  </div>
+</body>
+</html>
