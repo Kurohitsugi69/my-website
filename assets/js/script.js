@@ -1,68 +1,59 @@
 // Letter content: English & Japanese
 const letterLinesEn = [
-  "Beloved Nagi Chan,",
-  "",
-  "I just wanted to leave a small note.",
-  "You can read it whenever you feel comfortable, and you don't have to reply.",
-  "",
-  "I've been carrying this for a while.",
-  "I just didn't want to say it when everything felt heavy for both of us,",
-  "or when I couldn't say it in the way I felt you deserved.",
-  "",
-  "My quietness wasn't distance.",
+  "Beloved Nagi Chan ᓚ₍⑅^..^₎♡,",
+  "\n",
+  "I just wanted to leave a small note. (˶˃𐃷˂˶)\nYou can read it whenever you feel comfortable, and you don't have to reply. (๑•̀ᗝ•́)૭",
+  "\n",
+  "I've been carrying this for a while. (>/////< ' )\nI just didn't want to say it when everything felt heavy for both of us, or when I couldn't say it in the way I felt you deserved. (づ˶˃⤙˂˶)づ",
+  "\n",
+  "My quietness wasn't distance. (ó﹏ò｡)",
   "It was me waiting for a better moment.",
-  "I do want to say this —",
-  "just not in the middle of everything you're going through right now.",
-  "",
+  "I do want to say this — just not in the middle of everything you're going through right now. ｡°(°¯᷄◠¯᷅°)°｡",
+  "\n",
   "Here's what I truly mean.",
-  "",
-  "I care about you",
+  "\n",
+  "I really care about you",
   "more than I let myself show.",
   "You matter to me",
-  "in ways I don't usually put into words.",
-  "",
+  "in ways I don't usually put into words.　( •̀⤙•́ )",
+  "\n",
   "Whatever is happening around you,",
-  "I'm still on your side.",
-  "",
+  "I'm still on your side. (ദ്ദി ๑>؂•̀๑)",
+  "\n",
   "When life settles a little",
   "and when I'm steadier too,",
-  "I'll say this in the way it should be said.",
-  "",
-  "Love you,",
+  "I'll say this in the way it should be said. ( ´･ ᵕ･)ﾉ(´ ᵕ `˶)",
+  "\n",
+  "Love you, (づ>/////<)づ♡",
   "— Shin"
 ];
 
 const letterLinesJp = [
-  "愛しいナギチャンへ",
-  "",
-  "ちょっとだけ伝えたいことがあって、このメッセージを書きました。",
-  "落ち着いたときに読んでくれたら嬉しいです。返事はしなくても大丈夫です。",
-  "",
-  "この気持ちは前からずっと心の中にありました。",
-  "ただ、お互いしんどいタイミングで言いたくなかったし、",
-  "ナギが本当はもっとよい形で聞いていいことだとも思っていました。",
-  "",
-  "僕が静かにしていたのは、離れたかったからじゃないよ。",
-  "もう少し良いタイミングを待っていただけです。",
-  "本当はちゃんと伝えたい。",
-  "ただ、今みたいにナギがたくさん抱えているときではない方がいいと思いました。",
-  "",
-  "だから、今の僕の本音をシンプルに書くね。",
-  "",
-  "僕はナギのことが大事です。",
-  "言葉にしている以上に、ずっと。",
-  "うまく言葉にしない部分まで含めて、",
-  "ナギは僕にとって特別な存在です。",
-  "",
+  "愛しいナギチャン ᓚ₍⑅^..^₎♡へ",
+  "\n",
+  "ちょっとだけ伝えたいことがあって、こうして書いています。 (˶˃𐃷˂˶)\n落ち着いたときに読んでくれたら嬉しいよ。返事しなくても大丈夫。 (๑•̀ᗝ•́)૭",
+  "\n",
+  "この気持ちは前からずっと心の中にあったんだ。 (>/////< ' )\nただ、お互いしんどい時に言いたくなかったし、ナギがもっといい形で受け取れる時に伝えたいと思ってた。 (づ˶˃⤙˂˶)づ",
+  "\n",
+  "僕が静かだったのは、離れたかったからじゃないよ。 (ó﹏ò｡)",
+  "ただ、もう少し良いタイミングを待っていただけなんだ。\n伝えたい気持ちはあるけど、今みたいにナギがいろいろ抱えている時じゃない方がいいと思った。 ｡°(°¯᷄◠¯᷅°)°｡",
+  "\n",
+  "だから、今の僕の本音をそのまま書くね。",
+  "\n",
+  "ナギのことを大事に思ってる。",
+  "言葉にする以上に、ずっとね。",
+  "うまく言葉にできない部分まで含めて、",
+  "ナギは僕にとって特別な存在なんだよ。 ( •̀⤙•́ )",
+  "\n",
   "どんなことが起きていても、",
-  "僕はずっとナギの味方でいます。",
-  "",
-  "もう少しお互いの状況が落ち着いて、",
+  "僕はいつもナギの味方でいる。 (ദ്ദി ๑>؂•̀๑)",
+  "\n",
+  "もう少しお互いが落ち着いて、",
   "僕自身もちゃんと整ったときに、",
-  "この気持ちをふさわしい形で伝えたいと思っています。",
-  "",
-  "心から愛してる。",
-  "― シン"
+  "この気持ちをふさわしい形で伝えるね。 ( ´･ ᵕ･)ﾉ(´ ᵕ `˶)",
+  "\n",
+  "心から愛してる。 (づ>/////<)づ♡",
+  "― 黒沢信二"
 ];
 
 const envelope = document.getElementById("envelope");
@@ -112,7 +103,7 @@ let albumTracks = [
   { name: "Supernatural", src: "assets/audio/album/Supernatural.mp3" },
   { name: "True Story", src: "assets/audio/album/True Story.mp3" },
   { name: "The Boy Is Mine", src: "assets/audio/album/The Boy Is Mine.mp3" },
-  { name: "Yes, And?", src: "assets/audio/album/Yes, And?.mp3" },
+  { name: "Yes, And?", src: "assets/audio/album/Yes, And_.mp3" },
   { name: "We Can't Be Friends (Wait for Your Love)", src: "assets/audio/album/We Can't Be Friends (Wait for Your Love).mp3" },
   { name: "I Wish I Hated You", src: "assets/audio/album/I Wish I Hated You.mp3" },
   { name: "Imperfect for You", src: "assets/audio/album/Imperfect for You.mp3" },
@@ -184,14 +175,14 @@ langToggle.addEventListener("click", (e) => {
   e.stopPropagation();
   if (currentLang === "jp") {
     currentLang = "en";
-    langEnSpan.classList.remove("active");
-    langJpSpan.classList.add("active");
+    langJpSpan.classList.remove("active");
+    langEnSpan.classList.add("active");
     letterContent.classList.add("english-font");
     letter.classList.add("english-font");
   } else {
     currentLang = "jp";
-    langJpSpan.classList.remove("active");
-    langEnSpan.classList.add("active");
+    langEnSpan.classList.remove("active");
+    langJpSpan.classList.add("active");
     letterContent.classList.remove("english-font");
     letter.classList.remove("english-font");
   }
@@ -463,3 +454,79 @@ playlistToggleBtn.addEventListener("click", () => {
 // Load first track and render playlist
 loadTrack(1);
 renderPlaylist();
+
+// Falling hearts and clovers background animation
+const fallingContainer = document.getElementById("fallingContainer");
+const fallingItems = ["💕", "💖", "💗", "💓", "🍀", "🍀", "🍀"];
+
+function createFallingItem() {
+  const item = document.createElement("div");
+  item.className = "falling-item";
+  item.textContent = fallingItems[Math.floor(Math.random() * fallingItems.length)];
+  item.style.left = Math.random() * 100 + "vw";
+  item.style.fontSize = (Math.random() * 15 + 18) + "px";
+  item.style.animationDuration = (Math.random() * 15 + 15) + "s";
+  item.style.animationDelay = Math.random() * 5 + "s";
+  
+  fallingContainer.appendChild(item);
+  
+  setTimeout(() => {
+    item.remove();
+  }, 30000);
+}
+
+// Create initial falling items
+for (let i = 0; i < 15; i++) {
+  setTimeout(() => createFallingItem(), i * 1000);
+}
+
+// Continue creating new items
+setInterval(() => {
+  createFallingItem();
+}, 2000);
+
+// Heart animation on mouse move and touch
+const heartContainer = document.getElementById("heartContainer");
+let lastHeartTime = 0;
+const heartDelay = 100; // milliseconds between hearts
+
+const heartEmojis = ["💕", "💖", "💗", "💓", "💝", "💞", "💘", "❤️", "🩷", "♡"];
+
+function createHeart(x, y) {
+  const now = Date.now();
+  if (now - lastHeartTime < heartDelay) return;
+  lastHeartTime = now;
+
+  const heart = document.createElement("div");
+  heart.className = "heart";
+  heart.textContent = heartEmojis[Math.floor(Math.random() * heartEmojis.length)];
+  heart.style.left = x + "px";
+  heart.style.top = y + "px";
+  heart.style.fontSize = (Math.random() * 10 + 15) + "px";
+  
+  // Random slight horizontal movement
+  const randomX = (Math.random() - 0.5) * 50;
+  heart.style.setProperty("--randomX", randomX + "px");
+  
+  heartContainer.appendChild(heart);
+  
+  setTimeout(() => {
+    heart.remove();
+  }, 3000);
+}
+
+document.addEventListener("mousemove", (e) => {
+  createHeart(e.clientX, e.clientY);
+});
+
+document.addEventListener("touchmove", (e) => {
+  for (let i = 0; i < e.touches.length; i++) {
+    createHeart(e.touches[i].clientX, e.touches[i].clientY);
+  }
+}, { passive: true });
+
+document.addEventListener("touchstart", (e) => {
+  for (let i = 0; i < e.touches.length; i++) {
+    createHeart(e.touches[i].clientX, e.touches[i].clientY);
+  }
+});
