@@ -186,10 +186,14 @@ langToggle.addEventListener("click", (e) => {
     currentLang = "en";
     langEnSpan.classList.remove("active");
     langJpSpan.classList.add("active");
+    letterContent.classList.add("english-font");
+    letter.classList.add("english-font");
   } else {
     currentLang = "jp";
     langJpSpan.classList.remove("active");
     langEnSpan.classList.add("active");
+    letterContent.classList.remove("english-font");
+    letter.classList.remove("english-font");
   }
   renderLetter();
 });
@@ -459,5 +463,3 @@ playlistToggleBtn.addEventListener("click", () => {
 // Load first track and render playlist
 loadTrack(1);
 renderPlaylist();
-
-
